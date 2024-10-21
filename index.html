@@ -1,2 +1,94 @@
-Hey!
-I am Sanidhya Rathore
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanidhya Rathore - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Sanidhya Rathore</h1>
+        <p>Manager - Engineering | IIT Kanpur Graduate | Application Development Specialist</p>
+        <p>Email: <a href="mailto:sanidhya.rathore263@gmail.com">sanidhya.rathore263@gmail.com</a></p>
+        <p>Phone: +91 997700 8969</p>
+        <p><a href="https://www.linkedin.com/in/sanidhya-rathore" target="_blank">LinkedIn Profile</a></p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>B. Tech in Electrical Engineering</strong> - IIT Kanpur (2023), 6.5/10</li>
+            <li><strong>Class 12th (CBSE)</strong> - Shree Kasera Bazar Vidya Niketan (2018), 86.6%</li>
+            <li><strong>Class 10th (CBSE)</strong> - South Indian Cultural Association (2016), 9.2/10</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <h3>TATA Projects | Manager - Engineering (Aug’23 - Present)</h3>
+            <ul>
+                <li>Spearheading in-house engineering capabilities saving Rs. 100+ Cr. annually per project.</li>
+                <li>Implemented Agile-Scrum methodology in a 50+ member team.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Oracle India Pvt. Ltd. | Application Development Intern (May'22 – Jul'22)</h3>
+            <ul>
+                <li>Developed a scalable cloud-based notification system for 30+ global teams.</li>
+                <li>Reduced system bootup time by 30% with Docker containerization.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Key Projects</h2>
+        <div class="project">
+            <h3>Quollab Consulting Project</h3>
+            <p>Improved E-Mandi’s profitability by restructuring discounting strategies and enhancing KPIs.</p>
+        </div>
+        <div class="project">
+            <h3>Urvija AI Pvt. Ltd. | Data Monetization Intern</h3>
+            <p>Delivered insights for clients like Airtel and HERE Technologies, improving user data monetization strategies.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>C++, C, Python, HTML, CSS, JavaScript, Excel, Power BI, Tableau, Docker, Kubernetes, Microservices</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
